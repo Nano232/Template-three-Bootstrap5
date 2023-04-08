@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color: #27E1C1;
+}
+.section-one{
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+}
+.section-one li{
+    list-style-type: none;
+}
+.section-one .content{
+    padding-top: 300px;
+    padding-bottom: 350px;
+}
+.section-one .content .btn2{
+    background-color: var(--main-color);
+}
+.section-two .gradient{
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+    background-image: linear-gradient(to right, #27e1c293,#27E1C1);
+    background-image: linear-gradient(to bottom right, #27e1c293, #27E1C1);
+}
+
